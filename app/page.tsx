@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         {
           isLoading && <div className="w-full min-h-96 border-2 border-gray-300 bg-gray-700 rounded-lg p-2 absolute top-0 flex items-center justify-center">
-            <p>Loading...</p>
+            <p>Processing...</p>
           </div>
         }
       </div>
