@@ -4,7 +4,7 @@ import axios from 'axios';
 export async function POST(req: Request) {
     try {
         const { prompt } = await req.json();
-        const response = await axios.post('http://127.0.0.1:8000/generate', { prompt });
+        const response = await axios.post('http://193.57.139.76:8000/generate', { prompt });
         return NextResponse.json(
             { response: response.data },
             {
